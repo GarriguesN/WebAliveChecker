@@ -38,3 +38,33 @@
 
 4. **Ensure that chromedriver is installed and available in your system's PATH.** You can download it from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
 
+## Usage
+
+The script checks the presence of a specific navbar (you can choose another item) on a given website at regular intervals and sends Ubuntu notifications if the status changes.
+
+## Running the Script
+
+1. **Modify the `url` and `navbar_id` variables** in the script to match the website and element you want to monitor.
+
+2. **Run the script:**
+
+    ```bash
+    python web_status_checker.py
+    ```
+
+    The script will now check the specified website at regular intervals (default: 60 seconds) and send Ubuntu notifications if the status changes.
+
+## Example
+
+To check if the navbar with ID `exampleNavbar` is present on `https://example.com`, update the following lines:
+
+```python
+url = "https://example.com"
+navbar_id = 'exampleNavbar'
+```
+
+```bash
+python web_status_checker.py
+```
+
+You will receive notifications about the website's status changes directly on your Ubuntu desktop.
