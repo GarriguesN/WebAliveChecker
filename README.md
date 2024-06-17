@@ -88,3 +88,7 @@ python web_status_checker_console.py https://example.com exampleElement
 You will receive messages about the website's status changes directly in your console or notifications (depends on version).
 
 To use the notification version, download 'script (notification ubuntu)'.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
