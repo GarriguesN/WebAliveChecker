@@ -44,7 +44,8 @@ The script checks the presence of a specific navbar (you can choose another item
 
 ## Running the Script
 
-1. **Modify the `url` and `navbar_id` variables** in the script to match the website and element you want to monitor.
+1. **Modify the `url` and `element_id` variables** in the script to match the website and element you want to monitor.
+
 
 2. **Run the script:**
 
@@ -56,11 +57,11 @@ The script checks the presence of a specific navbar (you can choose another item
 
 ## Example
 
-To check if the navbar with ID `exampleNavbar` is present on `https://example.com`, update the following lines:
+To check if the navbar with ID `element_id ` is present on `https://example.com`, update the following lines:
 
 ```python
 url = "https://example.com"
-navbar_id = 'exampleNavbar'
+element_id  = 'exampleElement'
 ```
 
 ```bash
