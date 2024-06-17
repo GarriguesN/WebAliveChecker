@@ -38,9 +38,9 @@
     ```
 or
 
-  ```bash
+    ```bash
     pip install selenium
-  ```
+    ```
 
 4. **Ensure that chromedriver is installed and available in your system's PATH.** You can download it from [here](https://chromedriver.storage.googleapis.com/index.html).
 
