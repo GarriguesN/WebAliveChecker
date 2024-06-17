@@ -36,7 +36,7 @@
     pip install -r requirements.txt
     ```
 
-4. **Ensure that chromedriver is installed and available in your system's PATH.** You can download it from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
+4. **Ensure that chromedriver is installed and available in your system's PATH.** You can download it from [here]([https://sites.google.com/a/chromium.org/chromedriver/downloads](https://chromedriver.storage.googleapis.com/index.html)).
 
 ## Usage
 
